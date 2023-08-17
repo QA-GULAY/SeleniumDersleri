@@ -30,6 +30,7 @@ public class Manage {
         driver.manage().window().setSize(new Dimension(900,600));
         Thread.sleep(5000);
 
+
         driver.close();
     }
 }
